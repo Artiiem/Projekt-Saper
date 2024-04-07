@@ -1,0 +1,128 @@
+#ifndef DIALOGLATWY_H
+#define DIALOGLATWY_H
+
+//(*Headers(dialogLatwy)
+#include <wx/bmpbuttn.h>
+#include <wx/dialog.h>
+#include <wx/sizer.h>
+#include <wx/stattext.h>
+//*)
+
+class dialogLatwy: public wxDialog
+{
+	public:
+
+		dialogLatwy(wxWindow* parent,wxWindowID id=wxID_ANY);
+		virtual ~dialogLatwy();
+
+		//(*Declarations(dialogLatwy)
+		wxBitmapButton* BitmapButton0;
+		wxBitmapButton* BitmapButton10;
+		wxBitmapButton* BitmapButton11;
+		wxBitmapButton* BitmapButton12;
+		wxBitmapButton* BitmapButton13;
+		wxBitmapButton* BitmapButton14;
+		wxBitmapButton* BitmapButton15;
+		wxBitmapButton* BitmapButton16;
+		wxBitmapButton* BitmapButton17;
+		wxBitmapButton* BitmapButton18;
+		wxBitmapButton* BitmapButton19;
+		wxBitmapButton* BitmapButton1;
+		wxBitmapButton* BitmapButton20;
+		wxBitmapButton* BitmapButton21;
+		wxBitmapButton* BitmapButton22;
+		wxBitmapButton* BitmapButton23;
+		wxBitmapButton* BitmapButton24;
+		wxBitmapButton* BitmapButton25;
+		wxBitmapButton* BitmapButton26;
+		wxBitmapButton* BitmapButton27;
+		wxBitmapButton* BitmapButton28;
+		wxBitmapButton* BitmapButton29;
+		wxBitmapButton* BitmapButton2;
+		wxBitmapButton* BitmapButton30;
+		wxBitmapButton* BitmapButton31;
+		wxBitmapButton* BitmapButton32;
+		wxBitmapButton* BitmapButton33;
+		wxBitmapButton* BitmapButton34;
+		wxBitmapButton* BitmapButton35;
+		wxBitmapButton* BitmapButton36;
+		wxBitmapButton* BitmapButton37;
+		wxBitmapButton* BitmapButton38;
+		wxBitmapButton* BitmapButton39;
+		wxBitmapButton* BitmapButton3;
+		wxBitmapButton* BitmapButton40;
+		wxBitmapButton* BitmapButton41;
+		wxBitmapButton* BitmapButton42;
+		wxBitmapButton* BitmapButton43;
+		wxBitmapButton* BitmapButton44;
+		wxBitmapButton* BitmapButton45;
+		wxBitmapButton* BitmapButton4;
+		wxBitmapButton* BitmapButton5;
+		wxBitmapButton* BitmapButton6;
+		wxBitmapButton* BitmapButton7;
+		wxBitmapButton* BitmapButton8;
+		wxBitmapButton* BitmapButton9;
+		wxStaticText* StaticText1;
+		//*)
+
+	protected:
+
+		//(*Identifiers(dialogLatwy)
+		static const long ID_STATICTEXT1;
+		static const long ID_BITMAPBUTTON0;
+		static const long ID_BITMAPBUTTON1;
+		static const long ID_BITMAPBUTTON2;
+		static const long ID_BITMAPBUTTON3;
+		static const long ID_BITMAPBUTTON4;
+		static const long ID_BITMAPBUTTON5;
+		static const long ID_BITMAPBUTTON6;
+		static const long ID_BITMAPBUTTON7;
+		static const long ID_BITMAPBUTTON8;
+		static const long ID_BITMAPBUTTON9;
+		static const long ID_BITMAPBUTTON10;
+		static const long ID_BITMAPBUTTON11;
+		static const long ID_BITMAPBUTTON12;
+		static const long ID_BITMAPBUTTON13;
+		static const long ID_BITMAPBUTTON14;
+		static const long ID_BITMAPBUTTON15;
+		static const long ID_BITMAPBUTTON16;
+		static const long ID_BITMAPBUTTON17;
+		static const long ID_BITMAPBUTTON18;
+		static const long ID_BITMAPBUTTON19;
+		static const long ID_BITMAPBUTTON20;
+		static const long ID_BITMAPBUTTON21;
+		static const long ID_BITMAPBUTTON22;
+		static const long ID_BITMAPBUTTON23;
+		static const long ID_BITMAPBUTTON24;
+		static const long ID_BITMAPBUTTON25;
+		static const long ID_BITMAPBUTTON26;
+		static const long ID_BITMAPBUTTON27;
+		static const long ID_BITMAPBUTTON28;
+		static const long ID_BITMAPBUTTON29;
+		static const long ID_BITMAPBUTTON30;
+		static const long ID_BITMAPBUTTON31;
+		static const long ID_BITMAPBUTTON32;
+		static const long ID_BITMAPBUTTON33;
+		static const long ID_BITMAPBUTTON34;
+		static const long ID_BITMAPBUTTON35;
+		static const long ID_BITMAPBUTTON36;
+		static const long ID_BITMAPBUTTON37;
+		static const long ID_BITMAPBUTTON38;
+		static const long ID_BITMAPBUTTON39;
+		static const long ID_BITMAPBUTTON40;
+		static const long ID_BITMAPBUTTON41;
+		static const long ID_BITMAPBUTTON42;
+		static const long ID_BITMAPBUTTON43;
+		static const long ID_BITMAPBUTTON44;
+		static const long ID_BITMAPBUTTON45;
+		//*)
+
+	private:
+
+		//(*Handlers(dialogLatwy)
+		//*)
+
+		DECLARE_EVENT_TABLE()
+};
+
+#endif
