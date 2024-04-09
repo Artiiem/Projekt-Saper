@@ -1,1 +1,3 @@
-# Projekt-Saper
+## Saper
+
+Projekt aplikacji komputerowej grę Saper.
